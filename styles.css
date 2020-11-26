@@ -2,4 +2,50 @@
   color: red;
   font-family: fantasy;
   font-size: x-large;
+  text-align: center;
+  position: relative;
+  border: 3px solid black;
+  background-color: aliceblue;
+}
+
+.bigContainer {
+  width: 100%;
+  height: 600px;
+  background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pia13123-hires-1591453563.jpg?resize=980:*');
+  position: relative;
+  bottom: 50px;
+}
+
+.formContainer {
+  height: 500px;
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  background-color: rgb(210, 228, 226);
+  color: rgb(133, 103, 103);
+  border-radius: 5%;
+  border: 2px;
+  border-style: groove;
+  position: relative;
+  top: 70px;
+}
+
+form {
+  position: relative;
+  top: 12px;
+}
+
+.fontLabels {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.commentboxs {
+  background-color: wheat;
+}
+
+.commentboxs1 {
+  background-color: wheat;
+  width: 850px;
+  height: 50px;
 }

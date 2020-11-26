@@ -6,11 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello World</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
-    <header class="header-class">Hello World! </header>
+    <header class="header-class">Awesome Form</header>
+
+    <div class="bigContainer">
+        <div class="formContainer">
+            <h2>Hello there!</h2>
+            <h3>Please fill the following form</h3>
+            <form action="">
+                <label class="fontLabels" for="name">Name:</label>
+                <input class="commentboxs" type="text" id="name" name="Name" placeholder="Here is your name!"
+                    required><br><br>
+                <label class="fontLabels" for="email">Email:</label>
+                <input class="commentboxs" type="text" id="email" name="email" placeholder="Here is your email!"
+                    required><br><br>
+                <label class="fontLabels" for="comment">Comments:</label>
+                <input class="commentboxs1" type="text" id="comment" maxlength="250"
+                    placeholder="Type your comment here..."><br><br>
+                <label class="fontLabels" for="question">¿What is your overall opinion about this
+                    article?</label><br><br>
+                <input type="radio" name="question" id="question">Positive</input>
+                <input type="radio" name="question" id="question">Negative</input>
+                <input type="radio" name="question" id="question">Neutral</input><br><br>
+                <label class="fontLabels" for="checkbox">I want to subscribe to the newsletter</label>
+                <input type="checkbox"><br><br>
+                <input type="submit" value="Submit">
+
+
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
