@@ -19,24 +19,22 @@
             <h3>Please fill the following form</h3>
             <form action="#">
                 <label class="fontLabels" for="name">Name:</label>
-                <input class="commentboxs" type="text" id="name" name="Name" placeholder="Here is your name!"
-                    required><br><br>
+                <input class="commentboxs" type="text" id="name" maxlength="20" name="Name"
+                    placeholder="Here is your name!" required><br><br>
                 <label class="fontLabels" for="email">Email:</label>
-                <input class="commentboxs" type="email" id="email" name="email" placeholder="Here is your email!"
-                    required><br><br>
+                <input class="commentboxs" type="email" id="email" maxlength="20" name="email"
+                    placeholder="Here is your email!" required><br><br>
                 <label class="fontLabels" for="comment">Comments:</label>
-                <input class="commentboxs1" type="textarea" id="comment" maxlength="250"
+                <input class="commentboxs1" type="text" id="comment" maxlength="250"
                     placeholder="Type your comment here..."><br><br>
                 <label class="fontLabels" for="question">¿What is your overall opinion about this
                     article?</label><br><br>
-                <input type="radio" name="question" id="questionP">Positive</input>
-                <input type="radio" name="question" id="questionN">Negative</input>
-                <input type="radio" name="question" id="questionNe">Neutral</input><br><br>
+                <input type="radio" name="question" id="questionP">Positive
+                <input type="radio" name="question" id="questionN">Negative
+                <input type="radio" name="question" id="questionNe">Neutral<br><br>
                 <label class="fontLabels" for="checkbox">I want to subscribe to the newsletter</label>
                 <input type="checkbox" name="checkbox"><br><br>
                 <input type="submit" value="Submit">
-
-
             </form>
         </div>
     </div>
